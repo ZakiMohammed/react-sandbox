@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 const UseMemoExample = () => {
 
     const [number, setNumber] = useState(1)
+    // eslint-disable-next-line
     const [inc, setInc] = useState(0)
 
     const renders = useRef(1)
