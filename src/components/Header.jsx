@@ -4,7 +4,7 @@ import { FaReact } from 'react-icons/fa'
 
 const Header = () => {
     return (
-        <Navbar bg="info" expand="lg" variant="dark">
+        <Navbar bg="info" expand="lg" variant="dark" className='py-4'>
             <Container>
                 <Navbar.Brand as={NavLink} to="/">
                     <FaReact size={30} className='me-2' />
